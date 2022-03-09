@@ -28,7 +28,7 @@ T init() {
         return tip;
     } else {
 
-        tiptotal = bill * (tip / 100.0);
+        tiptotal = bill * (tip / 100.);
         total = (tiptotal + bill);
         cout << "The total Bill with Tip is: " << "$" << total << "\n\n";
         cout << "You are helping me through College!! Thankyou!!\n";
